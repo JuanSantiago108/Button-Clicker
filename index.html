@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbarbg">
+        <div class="navbar">
+            <div class="nav-text-left">
+                <h2>Dojonary</h2>
+            </div>
+            <div class="nav-text-left">
+                <input type="text" name="search" 
+                placeholder="Search..." >
+            </div>
+            <div class="nav-text-left">
+                <button onclick="logout(this)">Login</button>
+            </div>
+        </div>
+    </div>
+    <!------------------This is my navbar--------------------- -->
+    <div class="container">
+        <div class="column-left">
+            <div class="ninja-box">
+                <div class="ninja-box-left">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    <button onclick="alert('Ninja was liked')">
+                        13 likes
+                    </button>
+                </div>
+                <div class="ninja-box-right">
+                    <p>
+                        A practitioner skilled in the <span>
+                            Japanese</span> art of <span>ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+            <div class="ninja-box">
+                <div class="ninja-box-left">
+                    <div class="ninja-box-left">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="alert('Ninja was liked')">
+                            37 likes
+                        </button>
+                    </div>
+                </div>
+                <div class="ninja-box-right">
+                    <p>
+                        A<span> programmer who breaks</span>
+                        down problems with <span>zen</span>-like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!------------------ This is my column-left---------------->
+
+        <div class="column-right">
+            <div class="you-box">
+                <div class="box">
+                    <p>
+                        Dojonary is define by you
+                    </p>
+                </div>
+                <button onclick="define(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
